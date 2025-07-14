@@ -43,7 +43,7 @@ markdown: kramdown
 highlighter: rouge
 plugins:
   - jekyll-feed
-  - jekyll-include-cache
+#  - jekyll-include-cache
 # char set encode
 encoding: utf-8
 # file path as blog
