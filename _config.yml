@@ -23,7 +23,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   个人技术博客站点，用户记录技术文章、课程、书籍阅读后的总结或随想
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gsanye.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gsanye
 github_username:  gsanye
 
