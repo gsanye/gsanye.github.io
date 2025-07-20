@@ -3,7 +3,7 @@ name: Hexo Deploy
 on:
   push:
     branches:
-      - dev  # 你当前的源码分支名称（如 master、main、source 等）
+      - master  # 你当前的源码分支名称（如 master、main、source 等）
 
 jobs:
   build-and-deploy:
