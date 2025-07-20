@@ -1,9 +1,9 @@
-name: Deploy Hexo Blog
+name: Hexo Deploy
 
 on:
   push:
     branches:
-      - dev # 或者你用来存放博客源码的分支名
+      - dev  # 你当前的源码分支名称（如 master、main、source 等）
 
 jobs:
   build-and-deploy:
@@ -11,19 +11,17 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          submodules: true # 如果你有子模块的话
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '22' # 根据需要调整Node.js版本
+          node-version: '22'  # 根据你的需求修改版本
 
-      - name: Install Dependencies
-        run: npm ci
+      - name: Install dependencies
+        run: npm install
 
-      - name: Generate Static Files
+      - name: Generate static files
         run: hexo generate
 
       - name: Deploy to GitHub Pages
