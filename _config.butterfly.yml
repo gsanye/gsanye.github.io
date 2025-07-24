@@ -29,8 +29,8 @@ menu:
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
-  theme: light
-  macStyle: false
+  theme: darker
+  macStyle: true
   # Code block height limit (unit: px)
   height_limit: false
   word_wrap: false
@@ -46,7 +46,7 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-# fab fa-github: https://github.com/xxxxx || Github || '#24292e'
+ fab fa-github: https://github.com/gsanye || Github || '#24292e'
 # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
 # --------------------------------------
@@ -63,10 +63,10 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: /img/favicon.png
 
 # The banner image of index page
-index_img:
+index_img: /images/top_pic/helloworld.webp
 
 # The banner image of archive page
 archive_img:
