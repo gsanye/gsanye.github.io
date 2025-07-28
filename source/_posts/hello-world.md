@@ -5,7 +5,7 @@ tags: test
 #categories:
 #keywords:
 #description:
-top_img: /images/top_pic/helloworld.webp
+top_img: 
 #comments:
 #cover:
 #toc:

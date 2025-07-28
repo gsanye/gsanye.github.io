@@ -5,15 +5,15 @@
 # Site
 title: Ge Skywalker
 subtitle: 'may the Force be with you!'
-description: 'personal tech blogs'
+description: '📝个人技术博客'
 keywords: tech blogs
 author: gsanye
-language: zh
+language: zh_CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://gsanye.github.io/hexo-blogs/
 permalink: :year/:month/:day/:title/
 permalink_defaults: /blog/
 pretty_urls:

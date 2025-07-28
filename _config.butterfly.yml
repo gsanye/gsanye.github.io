@@ -4,7 +4,7 @@
 
 nav:
   # 导航栏 Logo 图片
-  logo: images/background_pic/wallhaven-4g6pm3-三角蓝橙.png
+  logo: images/icon/favicon_io_robot/favicon.ico
   # 是否显示标题
   display_title: true
   # 是否在滚动时显示文章标题
@@ -55,20 +55,20 @@ social:
 # --------------------------------------
 
 # 网站的 favicon 图标
-favicon: /img/favicon.png
+favicon: images/icon/favicon_io_robot/favicon.ico
 
 # 头像设置
 avatar:
   # 头像图片链接
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: images/icon/favicon_io_alien_monster/android-chrome-192x192.png
   # 是否启用头像效果
-  effect: true
+  effect: false
 
 # 禁用所有横幅图片
 disable_top_img: false
 
 # 如果页面未设置横幅，则显示默认的横幅图片
-default_top_img:
+default_top_img: images/background_pic/wallhaven-6lklwl-朝阳.jpg
 
 # 主页的横幅图片
 index_img: images/background_pic/wallhaven-6lkq5l-草原少年.png
@@ -189,7 +189,7 @@ subtitle:
   # 3 - jinrishici.com
   source: false
   # 如果关闭打字机效果，副标题将仅显示 sub 的第一行内容
-  sub:
+  sub: 'test'
 
 # 首页文章佈局
 # 1: 行佈局
@@ -299,7 +299,7 @@ footer:
     # 网站创建年份
     since: 2025
   # 自定义文本
-  custom_text:
+  custom_text: 在知识的的海洋中狗刨
   # 主题和框架的版权声明
   copyright:
     enable: true
@@ -346,7 +346,7 @@ aside:
     # 是否显示公告卡片
     enable: true
     # 公告内容
-    content: 日拱一兵，唐工不捐
+    content: 不积跬步 无以至千里
   card_recent_post:
     # 是否显示最近文章卡片
     enable: true
@@ -485,7 +485,7 @@ anchor:
   # 滚动时，URL 将根据标题 ID 更新
   auto_update: false
   # 点击标题滚动并更新锚点
-  click_to_scroll: false
+  click_to_scroll: true
 
 # 图片标题
 photofigcaption: false
@@ -514,11 +514,11 @@ wordcount:
 # 不蒜子 PV / UV 统计
 busuanzi:
   # 网站 UV 统计
-  site_uv: true
+  site_uv: false
   # 网站 PV 统计
-  site_pv: true
+  site_pv: false
   # 页面 PV 统计
-  page_pv: true
+  page_pv: false
 
 # --------------------------------------
 # 数学公式设置
@@ -996,9 +996,9 @@ canvas_ribbon:
   # 是否启用 canvas_ribbon
   enable: true
   # ribbon 的大小
-  size: 150
+  size: 175
   # ribbon 的不透明度 (0 ~ 1)
-  alpha: 0.5
+  alpha: 0.6
   zIndex: -1
   # 是否点击更改颜色
   click_to_change: true
@@ -1031,7 +1031,7 @@ canvas_nest:
 # 鼠标点击效果: 烟花
 fireworks:
   # 是否启用烟花效果
-  enable: true
+  enable: false
   zIndex: 9999
   # 是否在移动设备上启用
   mobile: false
@@ -1039,7 +1039,7 @@ fireworks:
 # 鼠标点击效果: 心形符号
 click_heart:
   # 是否启用心形符号效果
-  enable: false
+  enable: true
   # 是否在移动设备上启用
   mobile: false
 
@@ -1074,7 +1074,7 @@ lightbox:
 # 系列
 series:
   # 是否启用系列
-  enable: false
+  enable: true
   # 按标题或日期排序
   orderBy: 'title'
   # 排序方式。1, asc 为升序; -1, desc 为降序
