@@ -4,7 +4,7 @@
 
 nav:
   # 导航栏 Logo 图片
-  logo:
+  logo: images/background_pic/wallhaven-4g6pm3-三角蓝橙.png
   # 是否显示标题
   display_title: true
   # 是否在滚动时显示文章标题
@@ -17,7 +17,10 @@ menu:
 # 列表||fas fa-list:
 #   音乐: /music/ || fas fa-music
 #   电影: /movies/ || fas fa-video
-
+  Home: / || fas fa-home
+  Archives: /archives/ || fas fa-archive
+  Categories: /categories/ || fas fa-folder-open
+  Tags: /tags/ || fas fa-tags
 # --------------------------------------
 # 代码块设置
 # --------------------------------------
@@ -90,22 +93,24 @@ category_img:
 category_per_img:
 
 # 页脚的背景图片
-footer_img: false
+footer_img: images/background_pic/wallhaven-4g6pm3-三角蓝橙.png
 
 # 网站背景
 # 可以设置为颜色或图片
 # 图片格式: url(http://xxxxxx.com/xxx.jpg)
-background: images/background_pic/wallhaven-3l65w9-蓝天路明亮.png
+#background: images/background_pic/wallhaven-3l65w9-蓝天路明亮.png
+background:
+
 
 # 封面设置
 cover:
   # 是否禁用封面
-  index_enable: truek
+  index_enable: true
   aside_enable: true
   archives_enable: true
   # 主页封面的位置
   # 选择: left/right/both
-  position: both
+  position: left
   # 当未设置封面时，显示默认封面
   default_cover:
   # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
@@ -131,13 +136,13 @@ post_meta:
   # 主页页面
   page:
     # 日期类型: created / updated / both
-    date_type: created
+    date_type: both
     # 日期格式: date / relative
     date_format: date
     # 是否显示分类
     categories: true
     # 是否显示标签
-    tags: false
+    tags: true
     # 是否显示文字标签
     label: true
   # 文章页面
@@ -169,7 +174,7 @@ index_top_img_height:
 # 首页的副标题设置
 subtitle:
   # 是否启用副标题
-  enable: false
+  enable: true
   # 是否启用打字机效果
   effect: true
   # 自定义 typed.js
@@ -209,7 +214,7 @@ toc:
   # 是否在文章中显示目录
   post: true
   # 是否在页面中显示目录
-  page: false
+  page: true
   # 是否显示目录编号
   number: true
   # 是否默认展开目录
@@ -223,7 +228,7 @@ post_copyright:
   # 是否启用版权声明
   enable: true
   # 是否进行文章 URL 解码
-  decode: false
+  decode: true
   # 作者链接
   author_href:
   # 许可证类型
@@ -252,7 +257,7 @@ post_edit:
   enable: false
   # url: https://github.com/用户名/仓库名/edit/分支名/子目录名/
   # 例如: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url:
+  url: https://github.com/gsanye/hexo-blogs/tree/master/source/_posts
 
 # 相关文章
 related_post:
@@ -292,7 +297,7 @@ footer:
     # 是否启用所有者显示
     enable: true
     # 网站创建年份
-    since: 2019
+    since: 2025
   # 自定义文本
   custom_text:
   # 主题和框架的版权声明
@@ -336,12 +341,12 @@ aside:
       # 按钮文本
       text: Follow Me
       # 按钮链接
-      link: https://github.com/xxxxxx
+      link: https://github.com/gsanye
   card_announcement:
     # 是否显示公告卡片
     enable: true
     # 公告内容
-    content: This is my Blog
+    content: 日拱一兵，唐工不捐
   card_recent_post:
     # 是否显示最近文章卡片
     enable: true
@@ -455,7 +460,7 @@ darkmode:
   end:
 
 # 在返回顶部按钮中显示滚动百分比
-rightside_scroll_percent: false
+rightside_scroll_percent: true
 
 # 不要修改以下设置，除非你知道它们的工作原理
 # 选择：readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -492,13 +497,13 @@ copy:
   # 在复制的内容后添加版权信息
   copyright:
     enable: false
-    # 当复制字符数超过 limit_count 时添加版权信息
+    # 当复制字符数超过 limit_count 时添加版权信息yaml
     limit_count: 150
 
 # 需要安装 hexo-wordcount 插件
 wordcount:
   # 是否启用字数统计
-  enable: false
+  enable: true
   # 在文章元信息中显示字数统计
   post_wordcount: true
   # 在文章元信息中显示閲读时间
@@ -546,7 +551,7 @@ math:
 search:
   # 选择：algolia_search / local_search / docsearch
   # 如果不需要搜索功能，保持为空
-  use:
+  use: local_search
   placeholder:
 
   # Algolia 搜索
@@ -559,9 +564,9 @@ search:
     # 页面加载时预加载搜索数据
     preload: false
     # 每篇文章显示的顶部 n 个搜索结果，设置为 -1 显示所有结果
-    top_n_per_article: 1
+    top_n_per_article: -1
     # 将 HTML 字符串反转义为可读内容
-    unescape: false
+    unescape: true
     CDN:
 
   # Docsearch
@@ -923,11 +928,11 @@ mask:
 # 加载动画
 preloader:
   # 是否启用加载动画
-  enable: false
+  enable: true
   # 资源
   # 1. 全屏加载
   # 2. 进度条
-  source: 1
+  source: 2
   # pace 主题 (参见 https://codebyzach.github.io/pace/)
   pace_css_url:
 
@@ -937,16 +942,17 @@ enter_transitions: true
 # 默认显示模式 - light (默认) / dark
 display_mode: light
 
-# 美化文章内容的配置
+# Font Awesome 图标支持
+fontawesome: true
 beautify:
   # 是否启用美化
-  enable: false
+  enable: true
   # 指定美化的范围 (site 或 post)
-  field: post
+  field: site
   # 指定标题前缀图标，如 '\f0c1'
-  title-prefix-icon:
+  title-prefix-icon: fa fa-heartbeat
   # 指定标题前缀图标的颜色，如 '#F47466'
-  title-prefix-icon-color:
+  title-prefix-icon-color: #F47466
 
 # 全局字体设置
 # 除非您知道它们的工作原理，否则不要修改以下设置
@@ -973,7 +979,7 @@ hr_icon:
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
   # 是否启用打字机效果
-  enable: false
+  enable: true
   # 是否启用彩色效果
   colorful: true
   # 是否启用震动效果
@@ -988,14 +994,14 @@ activate_power_mode:
 # 参见: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
   # 是否启用 canvas_ribbon
-  enable: false
+  enable: true
   # ribbon 的大小
   size: 150
   # ribbon 的不透明度 (0 ~ 1)
-  alpha: 0.6
+  alpha: 0.5
   zIndex: -1
   # 是否点击更改颜色
-  click_to_change: false
+  click_to_change: true
   # 是否在移动设备上启用
   mobile: false
 
@@ -1025,7 +1031,7 @@ canvas_nest:
 # 鼠标点击效果: 烟花
 fireworks:
   # 是否启用烟花效果
-  enable: false
+  enable: true
   zIndex: 9999
   # 是否在移动设备上启用
   mobile: false
