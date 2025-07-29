@@ -60,7 +60,7 @@ favicon: images/icon/favicon_io_robot/favicon.ico
 # 头像设置
 avatar:
   # 头像图片链接
-  img: images/icon/favicon_io_alien_monster/android-chrome-192x192.png
+  img: http://gsanye.github.io/hexo-blogs/images/icon/favicon_io_alien_monster/android-chrome-192x192.png
   # 是否启用头像效果
   effect: false
 

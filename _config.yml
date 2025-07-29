@@ -5,10 +5,10 @@
 # Site
 title: Ge Skywalker
 subtitle: 'may the Force be with you!'
-description: '📝个人技术博客'
+description: '个人技术博客'
 keywords: tech blogs
 author: gsanye
-language: zh_CN
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -113,5 +113,5 @@ word_count:
 
 search:
   path: search.json
-  field: post
+  field: all
   content: true
