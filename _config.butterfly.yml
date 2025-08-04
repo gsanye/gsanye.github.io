@@ -4,7 +4,7 @@
 
 nav:
   # 导航栏 Logo 图片
-  logo: images/icon/favicon_io_robot/favicon.ico
+  logo: /images/icon/favicon_io_beating_heart/apple-touch-icon.png
   # 是否显示标题
   display_title: true
   # 是否在滚动时显示文章标题
@@ -552,9 +552,11 @@ search:
   # 选择：algolia_search / local_search / docsearch
   # 如果不需要搜索功能，保持为空
   use: local_search
-  placeholder:
+  placeholder: 'search what you want'
+  enable: true
+  type: json
 
-  # Algolia 搜索
+  # Algolia 搜索j
   algolia_search:
     # 每页搜索结果数量
     hitsPerPage: 6
