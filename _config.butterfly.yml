@@ -55,12 +55,12 @@ social:
 # --------------------------------------
 
 # 网站的 favicon 图标
-favicon: images/icon/favicon_io_robot/favicon.ico
+favicon: images/icon/favicon_io_alien_monster/favicon.ico
 
 # 头像设置
 avatar:
   # 头像图片链接
-  img: http://gsanye.github.io/hexo-blogs/images/icon/favicon_io_alien_monster/android-chrome-192x192.png
+  img: images/icon/favicon_io_alien_monster/android-chrome-192x192.png
   # 是否启用头像效果
   effect: false
 
@@ -257,7 +257,7 @@ post_edit:
   enable: false
   # url: https://github.com/用户名/仓库名/edit/分支名/子目录名/
   # 例如: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url: https://github.com/gsanye/hexo-blogs/tree/master/source/_posts
+  url: https://github.com/gsanye/gsanye.github.io/tree/master/source/_posts
 
 # 相关文章
 related_post:
