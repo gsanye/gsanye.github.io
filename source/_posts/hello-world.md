@@ -2,7 +2,9 @@
 title: Hello World
 date: 2025-07-25 06:33:54
 tags: test
-category: websit
+category: 
+    - websit
+    - hexo
 #categories:
 #keywords:
 #description:
@@ -11,7 +13,7 @@ top_img:
 #cover:
 #toc:
 #toc_number:
-#toc_style_simple:
+#toc_style_simple:k
 #copyright:
 #copyright_author:
 #copyright_author_href:
