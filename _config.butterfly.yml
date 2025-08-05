@@ -68,10 +68,10 @@ avatar:
 disable_top_img: false
 
 # 如果页面未设置横幅，则显示默认的横幅图片
-default_top_img: /images/background_pic/wallhaven-6lklwl-朝阳.jpg
+default_top_img: /images/background_pic/wallhaven-6lklwl-朝阳.webp
 
 # 主页的横幅图片
-index_img: /images/background_pic/wallhaven-6lkq5l-草原少年.png
+index_img: /images/background_pic/wallhaven-6lkq5l-草原少年.webp
 
 # 归档页的横幅图片
 archive_img:
@@ -93,7 +93,7 @@ category_img:
 category_per_img:
 
 # 页脚的背景图片
-footer_img: /images/background_pic/wallhaven-4g6pm3-三角蓝橙.png
+footer_img: /images/background_pic/wallhaven-4g6pm3-三角蓝橙.webp
 
 # 网站背景
 # 可以设置为颜色或图片
