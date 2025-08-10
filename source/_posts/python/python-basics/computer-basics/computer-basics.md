@@ -3,13 +3,13 @@ title: 计算机基础
 slug: 计算机基础
 date: 2025-08-06 06:43:07
 tags: 
-    - python
-    - basics
-    - computer
+  - python
+  - basics
+  - computer
+
 categories:
   - python
   - python-basics
-  - computer-basics
   - computer-basics
 
 ---
