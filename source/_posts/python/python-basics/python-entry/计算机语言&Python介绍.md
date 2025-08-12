@@ -1,3 +1,20 @@
+---
+title: 计算机语言&Python介绍
+slug: 计算机语言&Python介绍
+date: 2025-08-06 06:43:07
+tags:
+- python
+- basics
+- grammar
+- data-structure
+- data-type
+
+categories:
+- python
+- python-basics
+- python-entry
+
+---
 # 第二章 Python入门（视频11-38）
 ## 什么是计算机语言
 计算机就是一台用来计算机的机器，人让计算机干什么计算机就得干什么！  
