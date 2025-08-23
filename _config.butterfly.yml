@@ -530,7 +530,7 @@ busuanzi:
 math:
   # 选择：mathjax, katex
   # 如果不需要数学公式，保持为空
-  use:
+  use: mathjax
   per_page: true
   hide_scrollbar: false
 

@@ -119,3 +119,8 @@ search:
   path: search.json
   field: all
   content: true
+
+mathjax:
+  tags: none   # or 'ams' to enable AMS math environments
+  single_dollar: true  # 支持 $...$ 写行内公式
+  enable: true
